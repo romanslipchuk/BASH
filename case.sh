@@ -7,6 +7,9 @@ case ${1,,} in
         help)
             echo "Just inter name"
             ;;
+        ?)
+            echo "Odin symbol"
+            ;;
         *)
             echo "Inter real username"
 esac

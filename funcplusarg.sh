@@ -8,7 +8,9 @@ showname(){
         return 1
     fi
 }
+
 showname $1
+
 if [ $? = 1 ]; then 
-    echo "Someone unknown call function"
-fi
+echo "Someone unknown call function"
+fi 

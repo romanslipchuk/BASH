@@ -1,6 +1,3 @@
 #! /bin/bash
 
-FIRST_NAME=NAME
-LAST_NAME=SURNAME
-
-echo Hello $FIRST_NAME $LAST_NAME
+echo $(($1 * $2 + $3))
